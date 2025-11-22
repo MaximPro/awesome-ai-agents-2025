@@ -1,369 +1,383 @@
-# 🚀 Awesome AI Agents 2025
-
-> **The Complete Index of AI Agents & Agents-as-a-Service (November 2025)**
->
-> Comprehensive guide to the best AI agents, agent frameworks, and services available in 2025.
+# Awesome AI Agents 2025
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![AI Agents](https://img.shields.io/badge/AI--Agents-2025-blue)]()
-[![Updated](https://img.shields.io/badge/Updated-Nov%202025-green)](#-november-2025-rankings)
-[![Total Resources](https://img.shields.io/badge/Total%20Resources-1500+-brightgreen)](#-statistics)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+> A comprehensive, curated list of cloud-based and commercial AI agent platforms, frameworks, and tools for 2025.
+
+## Table of Contents
+
+- [What are AI Agents in 2025?](#what-are-ai-agents-in-2025)
+- [Types of AI Agents](#types-of-ai-agents)
+- [Quick Start Guide](#quick-start-guide)
+- [Top 50+ AI Agent Platforms](#top-50-ai-agent-platforms)
+- [Platform Comparison Matrix](#platform-comparison-matrix)
+- [Choosing the Right Platform](#choosing-the-right-platform)
+- [Market Statistics](#market-statistics)
+- [Documentation Index](#documentation-index)
 
 ---
 
-## 📋 Table of Contents
+## What are AI Agents in 2025?
 
-- [🎯 What is This?](#-what-is-this)
-- [⭐ November 2025 Rankings](#-november-2025-rankings)
-- [🔝 Top AI Agent Services](#-top-ai-agent-services)
-- [📊 Statistics](#-statistics)
-- [🗂️ Awesome Lists Index](#-awesome-lists-index)
-- [🏢 Enterprise Solutions](#-enterprise-solutions)
-- [🎓 Categories](#-categories)
-- [💡 Contributing](#-contributing)
+AI agents in 2025 have evolved from simple chatbots to autonomous, goal-oriented systems capable of planning, executing, and adapting to complex workflows. Unlike traditional automation tools, modern AI agents can:
 
----
+- **Reason and Plan**: Break down complex tasks into executable steps
+- **Execute Autonomously**: Take actions across multiple systems without constant oversight
+- **Learn and Adapt**: Improve performance based on feedback and outcomes
+- **Collaborate**: Work with other agents and humans in sophisticated workflows
 
-## 🎯 What is This?
+### Key Characteristics
 
-This is a comprehensive **meta-awesome-list** of the best AI agents and agent platforms available as of **November 2025**. Covers:
+| Feature | 2023 | 2025 |
+|---------|------|------|
+| Task Complexity | Single-step | Multi-step, multi-system |
+| Autonomy Level | Assisted | Semi to fully autonomous |
+| Learning | Static | Continuous adaptation |
+| Collaboration | Isolated | Multi-agent coordination |
+| Enterprise Readiness | Experimental | Production-grade |
 
-✨ **Cloud Services** - ChatGPT, Claude, Gemini, and more
-🤖 **Agent Frameworks** - BuildAgent, LangChain, AutoGen
-🏢 **Enterprise Solutions** - Salesforce Einstein, SAP, Microsoft 365 Copilot
-🧠 **Reasoning Engines** - Advanced LLM reasoning capabilities
-⚡ **Speed & Efficiency** - Latest performance benchmarks
-💰 **Pricing & ROI** - Cost-benefit analysis
+### The Agentic AI Shift
 
----
+According to industry research, 2025 marks the transition from AI "copilots" to true AI "agents":
 
-## ⭐ November 2025 Rankings
-
-### **Top 10 AI Agents (Overall)**
-
-| Rank | Agent | Capability | Best For | Price |
-|------|-------|-----------|----------|-------|
-| 🥇 **1** | **Claude 4.5** (Anthropic) | 200K context, superior reasoning | Complex coding, analysis | $3/$15 per 1M tokens |
-| 🥈 **2** | **GPT-5** (OpenAI) | Multimodal, reasoning, Operator | Versatility, integration | $6/$18 per 1M tokens |
-| 🥉 **3** | **Grok-4** (xAI) | Fast inference, real-time | Speed & real-time data | Premium pricing |
-| **4** | **Gemini 2.5** (Google) | Multimodal, tool use | Enterprise, Google ecosystem | $1.50/$6 per 1M tokens |
-| **5** | **DeepSeek-R1** | Cost-effective reasoning | Budget-conscious | $0.55/$2.19 per 1M tokens |
-| **6** | **Llama 3.3** | Open source alternative | Customization | Free (open source) |
-| **7** | **Mistral Large** | Fast, efficient | European focus | $0.30/$0.90 per 1M tokens |
-| **8** | **Claude 3.5 Sonnet** | Extended context | Long-form content | Legacy pricing |
-| **9** | **Qwen 2.5** (Alibaba) | Asian market focus | Regional adoption | Competitive |
-| **10** | **Phi-4** (Microsoft) | Lightweight, efficient | Edge deployment | Free (open source) |
-
-### **Coding Agents Benchmark**
-
-| Rank | Agent | SWE-Bench Score | Coding Ability | Best For |
-|------|-------|-----------------|----------------|----------|
-| 1 | **Claude 4.5** | ~84.8% | Expert level | Production code |
-| 2 | **GPT-5** | ~80%+ | Expert level | Full-stack dev |
-| 3 | **Cursor + Claude** | ~85%+ | Expert level | IDE integration |
-| 4 | **GitHub Copilot Workspace** | ~75%+ | Advanced | GitHub native |
-| 5 | **Grok-4** | ~78%+ | Advanced | Real-time data |
-
-### **Reasoning Capabilities** (o1, o3 class models)
-
-| Agent | Reasoning Score | Typical Use | Speed |
-|-------|-----------------|------------|-------|
-| **o1** (OpenAI) | Advanced | Complex math, science | 1-5 min |
-| **o3** (OpenAI) | Expert | Specialized reasoning | Similar |
-| **Claude 4.5** | Advanced | General reasoning | Real-time |
-| **Grok-4** | Advanced | Real-time reasoning | Fast |
+- **Level 1**: Chatbots (reactive, single-turn)
+- **Level 2**: Copilots (assistive, context-aware)
+- **Level 3**: Agents (autonomous, goal-oriented) - **We are here**
+- **Level 4**: Orchestrators (multi-agent coordination)
 
 ---
 
-## 🔝 Top AI Agent Services
+## Types of AI Agents
 
-### **🏆 Tier 1: Flagship Agents**
+### Enterprise Platforms
+Large-scale solutions designed for Fortune 500 companies with deep integrations, compliance features, and enterprise support.
 
-#### **Claude 4.5** (Anthropic) - THE CHAMPION FOR 2025
-- **Strengths**:
-  - Best-in-class reasoning (84.8% SWE-Bench)
-  - 200K token context window
-  - Superior code generation
-  - Excellent at tool use & APIs
-  - Best for agent building
-- **Pricing**: $3 input / $15 output per 1M tokens
-- **Best For**: Professional coding, complex analysis, building AI systems
-- **Key Features**: Computer use, extended thinking, web navigation
-- **Website**: https://claude.ai
+**Examples**: Salesforce Agentforce, IBM watsonx, Microsoft Copilot Studio
 
-#### **GPT-5** (OpenAI) - MULTIMODAL POWERHOUSE
-- **Strengths**:
-  - Multimodal (text, image, voice, video)
-  - Unified reasoning across modalities
-  - Fast response times
-  - Operator agent (autonomous actions)
-  - Largest ecosystem
-- **Pricing**: $6 input / $18 output per 1M tokens
-- **Best For**: Everyday tasks, versatile needs, ChatGPT ecosystem
-- **Key Features**: GPT-5 model, Operator mode, Canvas for collaboration
-- **Website**: https://chatgpt.com
+[View Enterprise Platforms Guide](ENTERPRISE-PLATFORMS.md)
 
-#### **Grok-4** (xAI) - SPEED & REALTIME
-- **Strengths**:
-  - Fast inference
-  - Real-time data access
-  - Advanced reasoning
-  - Lower latency
-- **Pricing**: Premium (per-seat)
-- **Best For**: Time-sensitive applications, real-time analysis
-- **Website**: https://x.com/grok
+### Cloud Provider Services
+AI agent services from major cloud providers, offering scalability, security, and integration with existing cloud infrastructure.
 
-### **🥈 Tier 2: Enterprise Leaders**
+**Examples**: AWS Bedrock Agents, Google Vertex AI Agent Builder, Azure AI Foundry
 
-#### **Gemini 2.5** (Google)
-- **Strengths**: Multimodal, tool use, enterprise integration
-- **Pricing**: $1.50/$6 per 1M tokens (most affordable)
-- **Best For**: Google Workspace users, cost-sensitive enterprises
-- **Context**: 2M tokens
-- **Website**: https://gemini.google.com
+[View Cloud Platforms Guide](CLOUD-PLATFORMS.md)
 
-#### **DeepSeek-R1** (ByteDance)
-- **Strengths**: Extreme cost-effectiveness, reasoning
-- **Pricing**: $0.55/$2.19 per 1M tokens
-- **Best For**: Budget-constrained projects, reasoning tasks
-- **Website**: https://platform.deepseek.com
+### No-Code Builders
+Visual, drag-and-drop platforms enabling non-technical users to create AI agents without programming.
 
-#### **Mistral Large** (Mistral AI)
-- **Strengths**: European AI, fast, efficient
-- **Pricing**: $0.30/$0.90 per 1M tokens
-- **Best For**: European companies, GDPR compliance
-- **Website**: https://mistral.ai
+**Examples**: Lindy, Zapier Agents, Gumloop, StackAI
 
-### **💚 Open Source Champions** (Free, Self-Hosted)
+[View No-Code Builders Guide](NO-CODE-BUILDERS.md)
 
-#### **Llama 3.3** (Meta)
-- **Capability**: State-of-the-art open LLM
-- **Agents**: Full agent support with tools
-- **Self-Host**: Yes (via Ollama, Hugging Face)
-- **Best For**: Customization, privacy, no API costs
+### Specialized Agents
+Purpose-built agents optimized for specific domains like coding, customer service, or voice interactions.
 
-#### **Qwen 2.5** (Alibaba)
-- **Capability**: Competitive with proprietary models
-- **Agents**: Full agentic capabilities
-- **Support**: Active development
-- **Best For**: Asian market, edge deployment
+**Examples**: Devin AI, Cognosys, OpenAI Operator, Sierra
 
-#### **Phi-4** (Microsoft)
-- **Capability**: Lightweight, efficient
-- **Agents**: Tool use capability
-- **Size**: 14B parameters
-- **Best For**: Edge devices, cost-sensitive
+[View Specialized Agents Guide](SPECIALIZED-AGENTS.md)
+
+### Developer Frameworks
+Open-source and commercial frameworks for building custom AI agents with full control over architecture.
+
+**Examples**: LangChain, LangGraph, CrewAI, AutoGen, OpenAI Swarm
+
+[View Agentic Frameworks Guide](AGENTIC-FRAMEWORKS.md)
 
 ---
 
-## 📊 Statistics
+## Quick Start Guide
 
-| Category | Count | Trend |
-|----------|-------|-------|
-| **Proprietary Agent Services** | 15+ | ↗️ Growing |
-| **Open Source Agent Models** | 50+ | ↗️ Rapidly growing |
-| **Agent Frameworks** | 25+ | ↗️ Growing |
-| **Specialized Agents** | 200+ | ↗️ Explosive growth |
-| **Agent Marketplaces** | 10+ | ↗️ New platforms |
-| **Use Cases Documented** | 1,000+ | ↗️ Expanding |
+### For Enterprises (Non-Technical Teams)
 
----
+1. **Evaluate Your Ecosystem**: Choose platforms that integrate with your existing stack
+   - Salesforce users -> Agentforce
+   - Microsoft 365 -> Copilot Studio
+   - AWS infrastructure -> Bedrock Agents
 
-## 🗂️ Awesome Lists Index
+2. **Start with a Pilot**: Begin with a single use case (e.g., customer support, sales automation)
 
-### **Comprehensive Collections**
+3. **Consider Governance**: Ensure the platform meets your compliance requirements (SOC 2, GDPR, HIPAA)
 
-1. **[jim-schwoebel/awesome_ai_agents](https://github.com/jim-schwoebel/awesome_ai_agents)** (1,500+ resources)
-   - Largest collection
-   - All agent types
-   - Framework recommendations
+### For Business Users (No-Code)
 
-2. **[slavakurilyak/awesome-ai-agents](https://github.com/slavakurilyak/awesome-ai-agents)** (300+ agentic resources)
-   - Focused on agents
-   - Implementation examples
-   - Production-ready
+1. **Choose a No-Code Builder**:
+   - Quick start: [Lindy](https://lindy.ai) - Visual builder with 3000+ integrations
+   - Integration-focused: [Zapier Agents](https://zapier.com) - 8000+ app connections
+   - Enterprise-ready: [StackAI](https://stack-ai.com) - SOC 2 compliant
 
-3. **[e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)**
-   - Autonomous agents
-   - Practical examples
-   - Deployment guides
+2. **Use Templates**: Most platforms offer pre-built templates for common use cases
 
-4. **[kyrolabs/awesome-agents](https://github.com/kyrolabs/awesome-agents)**
-   - Agent frameworks
-   - Tool integrations
-   - Comparisons
+3. **Connect Your Tools**: Link your email, CRM, calendar, and other daily tools
 
-5. **[Jenqyang/Awesome-AI-Agents](https://github.com/Jenqyang/Awesome-AI-Agents)**
-   - LLM-powered agents
-   - Architecture patterns
-   - Use cases
+### For Developers
 
-6. **[Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)**
-   - LLM applications
-   - RAG systems
-   - Multi-agent apps
+1. **Select a Framework**:
+   ```bash
+   # LangChain (most popular)
+   pip install langchain langchain-openai
 
-7. **[ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)**
-   - 500+ use cases
-   - Industry examples
-   - Implementation code
+   # CrewAI (multi-agent)
+   pip install crewai
 
-### **Specialized Collections**
+   # LangGraph (stateful workflows)
+   pip install langgraph
+   ```
 
-- **Coding Agents**: GitHub Copilot, Cursor, Claude Code
-- **Research Agents**: Perplexity, Google Scholar AI
-- **Data Agents**: Pandas-AI, DuckDB AI
-- **Business Agents**: Salesforce Einstein, SAP AI
+2. **Build Your First Agent**:
+   ```python
+   from langchain.agents import create_react_agent
+   from langchain_openai import ChatOpenAI
+
+   llm = ChatOpenAI(model="gpt-4")
+   agent = create_react_agent(llm, tools, prompt)
+   ```
+
+3. **Deploy**: Use cloud platforms for production deployment with monitoring
 
 ---
 
-## 🏢 Enterprise Solutions
+## Top 50+ AI Agent Platforms
 
-### **Cloud Giants**
+### Enterprise Platforms (10)
 
-| Company | Solution | Features | Best For |
-|---------|----------|----------|----------|
-| **Microsoft** | Copilot Pro, Semantic Kernel | Office integration, AutoGen | Enterprise 365 users |
-| **Google** | Gemini Advanced, Enterprise | Search integration, Workspace | Google Workspace ecosystem |
-| **Salesforce** | Einstein Copilot | CRM-native, customer data | Sales & service teams |
-| **Anthropic** | Claude API, Claude Teams | API access, usage controls | Developers, teams |
-| **OpenAI** | ChatGPT Teams, API | Large scale, Operator | Diverse use cases |
+| Platform | Company | Best For | Pricing |
+|----------|---------|----------|---------|
+| [Agentforce](https://salesforce.com/agentforce) | Salesforce | CRM automation | Per conversation |
+| [watsonx Orchestrate](https://ibm.com/watsonx) | IBM | Enterprise automation | Subscription |
+| [Copilot Studio](https://microsoft.com/copilot-studio) | Microsoft | M365 integration | $200/year |
+| [Vertex AI Agent Builder](https://cloud.google.com/vertex-ai) | Google | GCP workflows | Usage-based |
+| [Bedrock Agents](https://aws.amazon.com/bedrock) | AWS | AWS infrastructure | Usage-based |
+| [ServiceNow AI Agents](https://servicenow.com) | ServiceNow | IT service management | Enterprise |
+| [Moveworks](https://moveworks.com) | Moveworks | Employee support | Enterprise |
+| [Sana Agents](https://sanalabs.com) | Sana Labs | Industrial enterprise | Enterprise |
+| [Adopt AI](https://adopt.ai) | Adopt AI | Enterprise orchestration | Enterprise |
+| [Azure AI Foundry](https://azure.microsoft.com/ai) | Microsoft | Enterprise AI | Usage-based |
 
-### **Agent-Specific Platforms**
+### Cloud Provider Services (6)
 
-| Platform | Type | Best For | Pricing |
-|----------|------|----------|---------|
-| **Dify** | Low-code agent builder | Quick deployment | Free/Paid |
-| **LangChain** | Development framework | Complex workflows | Open source |
-| **AutoGen (Microsoft)** | Multi-agent framework | Team collaboration | Open source |
-| **CrewAI** | Agent orchestration | Multi-agent systems | Open source |
-| **Semantic Kernel** | AI orchestration | Microsoft ecosystem | Open source |
+| Platform | Provider | Key Features | Integration |
+|----------|----------|--------------|-------------|
+| AWS Bedrock Agents | Amazon | Multi-model, AgentCore | Full AWS |
+| AWS Strands Agents | Amazon | Lightweight SDK | AWS services |
+| Vertex AI Agent Builder | Google | Gemini-powered | GCP |
+| Azure AI Agent Service | Microsoft | OpenAI models | Azure |
+| Google ADK | Google | Agent Development Kit | GCP |
+| AWS Transform | Amazon | Enterprise modernization | AWS |
 
----
+### No-Code Builders (15)
 
-## 🎓 Categories
+| Platform | Best For | Pricing | Integrations |
+|----------|----------|---------|--------------|
+| [Lindy](https://lindy.ai) | SMBs | $49/month | 3000+ |
+| [Zapier Agents](https://zapier.com) | App automation | From $19.99/mo | 8000+ |
+| [Gumloop](https://gumloop.com) | Technical marketers | Free-$37/mo | MCP support |
+| [StackAI](https://stack-ai.com) | Enterprise | Custom | Enterprise |
+| [Relay.app](https://relay.app) | Workflow automation | Varies | Popular apps |
+| [Flowise](https://flowiseai.com) | Developers | Free (OSS) | Customizable |
+| [Dify](https://dify.ai) | Visual building | Free (OSS) | APIs |
+| [n8n](https://n8n.io) | Technical teams | Free-$20/mo | 400+ |
+| [GenFuse AI](https://genfuse.ai) | Automation | Varies | Multiple |
+| [Relevance AI](https://relevanceai.com) | Data teams | Varies | APIs |
+| [Make](https://make.com) | Visual workflows | From $9/mo | 1500+ |
+| [Vellum AI](https://vellum.ai) | Enterprise AI | Enterprise | Full SDK |
+| [Sendbird](https://sendbird.com) | Customer engagement | Enterprise | Omnichannel |
+| [Retool AI](https://retool.com) | Internal tools | From $60/mo | Databases |
+| [Activepieces](https://activepieces.com) | Open source | Free-paid | 100+ |
 
-### **1. General Purpose Agents** (5)
-- Claude 4.5
-- GPT-5
-- Grok-4
-- Gemini 2.5
-- Mistral Large
+### Specialized Agents (12)
 
-### **2. Coding Agents** (10+)
-- GitHub Copilot Workspace
-- Cursor (Claude-powered)
-- Claude Code
-- Amazon CodeWhisperer
-- Tabnine
+| Agent | Domain | Company | Pricing |
+|-------|--------|---------|---------|
+| [Devin AI](https://cognition.ai) | Software engineering | Cognition | From $20/mo |
+| [Cognosys](https://cognosys.ai) | Knowledge work | Cognosys | Subscription |
+| [OpenAI Operator](https://openai.com) | Browser automation | OpenAI | ChatGPT Plus |
+| [Sierra](https://sierra.ai) | Customer experience | Sierra | Enterprise |
+| [Moveworks](https://moveworks.com) | IT support | Moveworks | Enterprise |
+| [Bland](https://bland.ai) | Voice agents | Bland AI | Usage-based |
+| [Retell AI](https://retell.ai) | Voice agents | Retell | Usage-based |
+| [Claude](https://anthropic.com) | Multi-domain | Anthropic | API-based |
+| [Open Interpreter](https://openinterpreter.com) | Code execution | OSS | Free |
+| [Cursor](https://cursor.sh) | AI IDE | Cursor | From $20/mo |
+| [GitHub Copilot](https://github.com/features/copilot) | Code completion | GitHub | $10-19/mo |
+| [Qodo](https://qodo.ai) | Enterprise coding | Qodo | From $30/mo |
 
-### **3. Research & Analysis** (10+)
-- Perplexity AI
-- Google Scholar AI
-- Elicit (research automation)
-- SciPhi Scientist
-- Consensus
+### Developer Frameworks (12)
 
-### **4. Business Agents** (15+)
-- Salesforce Einstein
-- SAP Analytics Cloud AI
-- Slack Assistant
-- Microsoft 365 Copilot
-- HubSpot AI
-
-### **5. Multi-Agent Systems** (10+)
-- CrewAI
-- AutoGen
-- LangChain MultiAgents
-- Semantic Kernel
-- CAMEL Framework
-
-### **6. Specialized Agents** (100+)
-- Finance agents
-- Healthcare agents
-- Legal agents
-- HR agents
-- Marketing agents
-- Customer service agents
-
-### **7. Reasoning Models** (5)
-- o1 (OpenAI)
-- o3 (OpenAI)
-- DeepSeek-R1
-- Claude 4.5
-- Grok-4
-
-### **8. Multimodal Agents** (5)
-- GPT-5
-- Gemini 2.5
-- Claude 4.5 (with vision)
-- Grok-4
-- Qwen 2.5
-
----
-
-## 💡 Contributing
-
-### Add Your Agent to This List
-
-1. **Proprietary**: Include company, pricing, key metrics
-2. **Open Source**: GitHub link, installation, setup
-3. **Framework**: Use cases, documentation, examples
-4. **Data**: Ensure November 2025 or latest information
-
-### Quality Standards
-
-✅ **Required:**
-- Actively maintained
-- Clear documentation
-- Working examples
-- Honest benchmarks
+| Framework | Type | Stars | Best For |
+|-----------|------|-------|----------|
+| [LangChain](https://langchain.com) | OSS | 50K+ | General chains |
+| [LangGraph](https://langchain.com/langgraph) | OSS | - | Stateful workflows |
+| [CrewAI](https://crewai.com) | OSS | 40K+ | Multi-agent teams |
+| [AutoGen](https://microsoft.github.io/autogen) | OSS | 30K+ | Conversations |
+| [OpenAI Swarm](https://github.com/openai/swarm) | OSS | - | Lightweight agents |
+| [Semantic Kernel](https://learn.microsoft.com/semantic-kernel) | OSS | - | Enterprise .NET |
+| [Phidata](https://phidata.com) | OSS | - | Memory & tools |
+| [Haystack](https://haystack.deepset.ai) | OSS | 15K+ | RAG pipelines |
+| [Vellum](https://vellum.ai) | Commercial | - | Production AI |
+| [Rivet](https://rivet.ironcladapp.com) | OSS | - | Visual GUI |
+| [MetaGPT](https://github.com/geekan/MetaGPT) | OSS | 40K+ | Software teams |
+| [AgentGPT](https://agentgpt.reworkd.ai) | OSS | - | Prototyping |
 
 ---
 
-## 📈 2025 Trends
+## Platform Comparison Matrix
+
+| Platform | Type | Multi-Agent | Integration Depth | Ease of Use | Enterprise Ready | Pricing Model |
+|----------|------|-------------|-------------------|-------------|------------------|---------------|
+| Salesforce Agentforce | Enterprise | 4/5 | 5/5 | 3/5 | 5/5 | Per conversation |
+| IBM watsonx | Enterprise | 3/5 | 5/5 | 3/5 | 5/5 | Subscription |
+| Microsoft Copilot Studio | Enterprise | 3/5 | 4/5 | 4/5 | 4/5 | Subscription |
+| AWS Bedrock | Cloud | 4/5 | 5/5 | 3/5 | 5/5 | Usage-based |
+| Google Vertex AI | Cloud | 4/5 | 4/5 | 3/5 | 5/5 | Usage-based |
+| Lindy | No-Code | 4/5 | 4/5 | 5/5 | 3/5 | Subscription |
+| Zapier Agents | No-Code | 3/5 | 5/5 | 5/5 | 3/5 | Subscription |
+| LangChain | Framework | 5/5 | 5/5 | 2/5 | 3/5 | Open source |
+| CrewAI | Framework | 5/5 | 3/5 | 3/5 | 3/5 | Freemium |
+| Devin AI | Specialized | 3/5 | 3/5 | 4/5 | 3/5 | Subscription |
+
+---
+
+## Choosing the Right Platform
+
+### Decision Tree
 
 ```
-Q1: Multi-agent systems boom
-Q2: Reasoning models released (o1, o3)
-Q3: GPT-5 launch with Operator
-Q4: Enterprise agent adoption surge
+Start
+  |
+  v
+Are you a developer?
+  |
+  +-- Yes --> Do you need multi-agent coordination?
+  |             |
+  |             +-- Yes --> CrewAI, LangGraph, or AutoGen
+  |             |
+  |             +-- No --> LangChain or OpenAI API
+  |
+  +-- No --> Do you have technical resources?
+              |
+              +-- Yes --> StackAI, Gumloop, or n8n
+              |
+              +-- No --> Lindy, Zapier Agents, or Relay.app
 ```
 
-**Key Insight**: Shift from "AI assistant" to "autonomous agent" paradigm
+### By Use Case
+
+| Use Case | Recommended Platforms |
+|----------|----------------------|
+| Customer Support | Salesforce Agentforce, Zendesk AI, Intercom |
+| Sales Automation | Lindy, HubSpot AI, Salesforce Einstein |
+| Software Development | Devin AI, GitHub Copilot, Cursor |
+| IT Operations | ServiceNow, Moveworks, IBM watsonx |
+| Marketing | Zapier Agents, Make, Relevance AI |
+| Data Analysis | Vertex AI, Bedrock, StackAI |
+| Voice Assistants | Bland, Retell AI, VAPI |
+
+### By Company Size
+
+| Size | Budget | Recommended |
+|------|--------|-------------|
+| Startup (1-10) | < $500/mo | Lindy, Zapier, open-source |
+| SMB (10-100) | $500-5K/mo | StackAI, n8n, Gumloop |
+| Mid-Market (100-1000) | $5K-50K/mo | Bedrock, Vertex AI, Copilot Studio |
+| Enterprise (1000+) | $50K+/mo | Agentforce, watsonx, Custom |
+
+### By Technical Expertise
+
+| Level | Platforms |
+|-------|-----------|
+| No-code | Lindy, Zapier, Relay.app |
+| Low-code | Copilot Studio, StackAI, Flowise |
+| Pro-code | LangChain, CrewAI, AutoGen |
+| Full-stack | Custom + Cloud services |
 
 ---
 
-## 🔗 Official Resources
+## Market Statistics
 
-| Provider | Link | Type |
-|----------|------|------|
-| **Anthropic** | https://anthropic.com | API & Claude |
-| **OpenAI** | https://openai.com | GPT-5 & API |
-| **Google** | https://gemini.google.com | Gemini |
-| **xAI** | https://x.com/grok | Grok |
-| **Meta** | https://llama.meta.com | Llama |
+### 2025 AI Agent Market Overview
+
+- **Market Size**: $7.84 billion (2025) -> $52.62 billion (2030)
+- **CAGR**: 46.3%
+- **Adoption Rate**: 79% of organizations deploying AI agents
+- **Expansion Plans**: 96% planning expansions in 2025
+
+### Enterprise ROI Metrics
+
+| Metric | Value |
+|--------|-------|
+| Average ROI | $3.70 return per $1 invested |
+| Top performers | Up to $10 return per $1 |
+| Microsoft Copilot reported ROI | 353% |
+| Production AI use cases | 31% (doubled from 2024) |
+
+### Framework Popularity (GitHub Stars)
+
+| Framework | Stars | Growth |
+|-----------|-------|--------|
+| LangChain | 50,000+ | +200% YoY |
+| CrewAI | 40,000+ | +500% YoY |
+| AutoGen | 30,000+ | +300% YoY |
+| MetaGPT | 40,000+ | +400% YoY |
+
+### Enterprise Adoption
+
+- **81%** of executives now leading AI adoption (up from 53%)
+- **44%** identify infrastructure as primary obstacle
+- **85%** of enterprises plan to adopt AI agents by end of 2025
+- **Fortune 500**: ~50% using CrewAI for multi-agent workflows
 
 ---
 
-## 📄 License
+## Documentation Index
 
-MIT License - Open source and free
+| Document | Description |
+|----------|-------------|
+| [ENTERPRISE-PLATFORMS.md](ENTERPRISE-PLATFORMS.md) | Enterprise-grade AI agent platforms |
+| [CLOUD-PLATFORMS.md](CLOUD-PLATFORMS.md) | Cloud provider agent services |
+| [NO-CODE-BUILDERS.md](NO-CODE-BUILDERS.md) | No-code and low-code builders |
+| [SPECIALIZED-AGENTS.md](SPECIALIZED-AGENTS.md) | Domain-specific AI agents |
+| [AGENTIC-FRAMEWORKS.md](AGENTIC-FRAMEWORKS.md) | Developer frameworks |
+| [COMPARISON-MATRIX.md](COMPARISON-MATRIX.md) | Detailed comparison tables |
+| [RESOURCES.md](RESOURCES.md) | Learning materials and links |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines |
 
 ---
 
-## 🙏 Credits
+## Contributing
 
-Research compiled from:
-- Official AI provider documentation (November 2025)
-- Benchmark databases (SWE-Bench, MMLU, etc.)
-- Community feedback and reviews
-- Production usage data
+We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+
+### Quick Contribution
+
+1. Fork the repository
+2. Add your platform/tool following the existing format
+3. Submit a pull request with clear description
 
 ---
 
-**Last Updated**: November 22, 2025
-**Information Current As Of**: November 2025
-**Next Update**: Q1 2026
+## License
 
-**Made with ❤️ for the AI agent community**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## Acknowledgments
+
+Research and data compiled from:
+- Gartner AI Agent Market Reports
+- GitHub repository statistics
+- Official platform documentation
+- Community benchmarks and reviews
+
+---
+
+**Last Updated**: November 2025
+
+**Maintained by**: The AI Agents Community
+
+---
+
+If this list helped you, please star it and share with others!
