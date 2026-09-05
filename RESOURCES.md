@@ -239,6 +239,7 @@
 
 | Newsletter | Focus | Frequency |
 |------------|-------|-----------|
+| [AI Weekly](https://aiweekly.co/) | Models, agents, research & policy | 3x weekly |
 | [The Batch](https://www.deeplearning.ai/the-batch) | AI news | Weekly |
 | [AI Breakfast](https://aibreakfast.beehiiv.com) | AI tools | Weekly |
 | [Superhuman](https://www.superhuman.ai) | AI for work | Daily |
