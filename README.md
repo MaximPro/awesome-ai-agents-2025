@@ -173,6 +173,7 @@ Open-source and commercial frameworks for building custom AI agents with full co
 |----------|----------|---------|--------------|
 | [Lindy](https://lindy.ai) | SMBs | $49/month | 3000+ |
 | [Zapier Agents](https://zapier.com) | App automation | From $19.99/mo | 8000+ |
+| [No Stairs Please MCP](https://nostairsplease.com/mcp) | Live music venue discovery & tour routing | Free | MCP |
 | [Gumloop](https://gumloop.com) | Technical marketers | Free-$37/mo | MCP support |
 | [StackAI](https://stack-ai.com) | Enterprise | Custom | Enterprise |
 | [Relay.app](https://relay.app) | Workflow automation | Varies | Popular apps |
